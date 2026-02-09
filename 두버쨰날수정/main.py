@@ -9,7 +9,6 @@ class Machine(ABC):
         f"돈 투입 {self.add_money()}"
         self.action()
         self.done()
-        
 
     def done(self):
         print("제품 배출 완료")
@@ -24,6 +23,3 @@ class Machine(ABC):
     @abstractmethod
     def action(self):
         pass
-
-    
-        
