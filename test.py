@@ -64,14 +64,11 @@ class Privacy(Interface):
 
 #======실행=========
 
+# 아래 클래스를 어떻게 작성해야 할지 잘 모르겠습니다.
 class Create(ABC):
     @abstractmethod
     def fctory(self):
         pass
-
-    def run(self):
-        interface = self.fctory
-        return interface
 
 
 class EnterpriseCreate(Create):
